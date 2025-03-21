@@ -1,7 +1,7 @@
 # Task Name - Create a static webpage layout using semantic elements.
 
 # Objective
-    - Use the following to semantic elements such as ```<header>```, ```<nav>```,```<main>```,```<footer>``` to create a webpage and add a simple responsive to mobile screens.
+- Use the following to semantic elements such as ```<header>```, ```<nav>```,```<main>```,```<footer>``` to create a webpage and add a simple responsive to mobile screens.
 
 # Types of Semantic Elements
 
