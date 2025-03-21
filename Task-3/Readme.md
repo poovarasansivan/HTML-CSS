@@ -1,6 +1,6 @@
 # Task Name - Create Responsive Grid Layout
 
-- Create Grid Layout using a Grid element and make it reponsive based on device type.
+- Create a Grid Layout using a Grid element and make it reponsive based on device type.
 
 # Task Performed
 
