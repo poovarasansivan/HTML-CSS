@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Grid & Flexbox Layout</title>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Presidio</div>
+        <button class="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="section">
+            <div class="text-content">
+                <h1>Who We Are?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi delectus omnis aspernatur accusantium error blanditiis, perspiciatis earum magnam velit quos provident alias? Dolorem natus voluptatem tenetur exercitationem repellendus eos nesciunt!</p>
+            </div>
+            <div class="image-content">
+                <img src="./assets/company.png" alt="Company">
+            </div>
+        </section>
+
+        <section class="section reverse">
+            
+            <div class="text-content">
+                <h1>Our Mission</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam consequuntur perferendis animi quibusdam quisquam cumque ullam facilis alias, adipisci, eum at! Dolorem totam eius ea nobis temporibus voluptatibus ex possimus.</p>
+            </div>
+            <div class="image-content">
+                <img src="./assets/mission.png" alt="Missions">
+            </div>
+        </section>
+
+        <h2 class="services-head">Our Services</h2>
+        <section class="services">
+            <div class="service-card">
+                <img src="./assets/app.png" alt="App Development">
+                <h3>Application Development</h3>
+                <p>We create robust, scalable applications tailored to business needs.</p>
+            </div>
+            <div class="service-card">
+                <img src="./assets/devops.png" alt="DevOps">
+                <h3>DevOps</h3>
+                <p>Streamlining CI/CD processes for optimal performance and efficiency.</p>
+            </div>
+            <div class="service-card">
+                <img src="./assets/docker.png" alt="Docker">
+                <h3>Docker</h3>
+                <p>Containerization solutions to enhance software deployment and management.</p>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2025 All Rights Reserved</p>
+    </footer>
+
+    <script>
+        // Responsive menu toggle
+        document.querySelector(".menu-toggle").addEventListener("click", () => {
+            document.querySelector(".nav-links").classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
