@@ -144,22 +144,22 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-.logo{
+  .logo {
     font-size: 20px;
-}
+  }
   .section {
     flex-direction: column;
     text-align: center;
   }
-  .nav-links a{
+  .nav-links a {
     text-align: start;
-    padding-right:20px;
+    padding-right: 20px;
     padding-left: 20px;
   }
   nav {
     justify-content: space-between;
   }
-  .menu-toggle{
+  .menu-toggle {
     margin-right: 20px;
   }
   .text-content,
